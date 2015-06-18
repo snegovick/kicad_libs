@@ -1,6 +1,21 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# cp_small
+#
+DEF cp_small C 0 40 N Y 1 F N
+F0 "C" 150 10 60 V V C CNN
+F1 "cp_small" -140 0 60 V V C CNN
+F2 "" 0 -10 60 H V C CNN
+F3 "" 0 -10 60 H V C CNN
+DRAW
+S -75 -15 75 -25 0 1 0 F
+S -75 25 75 25 0 1 0 N
+X ~ 1 0 100 75 D 50 50 1 1 P
+X ~ 2 0 -100 75 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # r_small
 #
 DEF r_small R 0 40 N Y 1 F N
