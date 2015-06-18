@@ -3,9 +3,9 @@ EESchema-LIBRARY Version 2.3
 #
 # 3225_4P_quartz
 #
-DEF 3225_4P_quartz U 0 40 Y Y 1 F N
-F0 "U" 500 950 60 H V C CNN
-F1 "3225_4P_quartz" -450 850 60 H V C CNN
+DEF 3225_4P_quartz X 0 40 Y Y 1 F N
+F0 "X" 50 325 60 H V C CNN
+F1 "3225_4P_quartz" -400 325 60 H V C CNN
 F2 "" 25 0 60 H V C CNN
 F3 "" 25 0 60 H V C CNN
 DRAW
