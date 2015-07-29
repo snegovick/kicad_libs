@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Reset_supervisor
+#
+DEF Reset_supervisor U 0 40 Y Y 1 F N
+F0 "U" 100 300 60 H V C CNN
+F1 "Reset_supervisor" -400 300 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -100 150 150 -250 0 1 0 N
+X ~RST 1 -300 50 200 R 50 50 1 1 B
+X Vcc 2 -300 -50 200 R 50 50 1 1 W
+X Vss 3 -300 -150 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
