@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# HC735-oscillator
+#
+DEF HC735-oscillator X 0 40 Y Y 1 F N
+F0 "X" 100 525 60 H V C CNN
+F1 "HC735-oscillator" -400 525 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -175 350 50 -225 0 1 0 N
+X E/D 1 -375 125 200 R 50 50 1 1 U
+X GND 2 -375 -125 200 R 50 50 1 1 W
+X Out 3 -375 0 200 R 50 50 1 1 O
+X Vdd 4 -375 250 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
